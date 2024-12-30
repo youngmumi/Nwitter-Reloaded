@@ -63,7 +63,7 @@ export default function CreateAccount() {
                 <Input 
                     type="submit" 
                     value={isLoading ? "Loading..." : "Log in"}
-                    disabled={isLoading} // 로딩 중에는 버튼 비활성화
+                    disabled={isLoading} 
                 />
             </Form>
             {error !== "" ? <Error>{error}</Error> : null}
